@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.containers{
+  display: flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left:50px ;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: lightskyblue;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+.about{
+  width:95%;
+  padding: 100px 0px;
+  background-size: cover;
+  text-align:center;
+  background-color: rgba(0, 180, 255, 0.4);
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius:30px;
+  transition: .4s;
+  overflow: hidden;
+  font-size: 22px;
+  
+}
+/* .about img{
+  padding: 200px;
+  margin: 100px;
+} */
+.about-text{
+  margin: 15px 20px ;
+}
+.about ul a{
+  color: #000000;
+  text-decoration: none
+}
+.about p{
+  font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.content{
+  position:relative;
+  top: 40%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1{
+  color: rgb(16, 214, 221);
+  margin: 20px 0px 20 px;
+  font-size: 125px;
+  font-family: 'Tangerine', serif ;
+}
+h3{
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  margin: bottom 50px;
+  font-family: 'Tangerine', serif ;
+}
+h4{
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  font-size: 63px;
+  font-family: 'Tangerine', serif ;
+}
+
+
+
+
